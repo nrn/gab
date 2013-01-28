@@ -1,0 +1,25 @@
+{ "name": "gab"
+, "version": "0.0.1-pre"
+, "author": "Nick Niemeir <nick.niemeir@gmail.com>"
+, "main": "server.js"
+, "bin": "./bin/cli.js"
+, "scripts":
+  { "test": "for f in ./t/*.js; do node $f; done"
+  , "start": "node bin/cli.js"
+  }
+, "dependencies":
+  { "ecstatic": "*"
+  , "ramrod": "*"
+  , "config-chain": "*"
+  , "optimist": "*"
+  , "flates": "*"
+  , "browserify": "*"
+  , "single-page": "*"
+  }
+, "devDependencies": { "tape": "*" }
+, "engines": { "node": ">0.6" }
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/nrn/gab.git"
+  }
+}
